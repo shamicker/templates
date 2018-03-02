@@ -18,4 +18,5 @@ Steps to create a new project using this, thanks to [this blog post](http://www.
 5. Push to the new repo.
 <pre>   git push origin master</pre>
 
-You're done! You'll have a leftover `upstream` remote. I haven't figured out how to delete that, yet.
+You're done! You'll have a leftover `upstream` remote. To remove it:
+<pre>   git remote rm upstream</pre>
